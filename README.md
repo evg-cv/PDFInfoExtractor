@@ -1,4 +1,4 @@
-# AWSOCR
+# InvoiceParser
 
 ## Overview
 
@@ -13,12 +13,6 @@ by the OpenCV framework is applied for the detection of tables in the scanned pd
 - src
 
     The main source code for OCR, downloading and uploading, and image processing
-
-- utils
-
-    * The credential files for AWS
-    * The sample page document files
-    * The source code for AWS Textract and the management of the folders and files of this project
 
 - app
 
@@ -45,19 +39,6 @@ by the OpenCV framework is applied for the detection of tables in the scanned pd
     pip3 install -r requirements.txt
     ```
 
-- Tesseract Installation
-    
-    * Ubuntu 18.04
-    
-        ```
-            sudo apt install tesseract-ocr -y
-        ```
-        
-    * Windows 10
-    
-        Please refer this link https://www.youtube.com/watch?v=RewxjHw8310 to install tesseract framework on windows 10 
-        and after setting your environment path including TESSDATA_PREFIX on your pc, restart your pc. 
-
 ## Configuration
 
 - Please set some configurations in config.cfg file.
@@ -76,4 +57,3 @@ by the OpenCV framework is applied for the detection of tables in the scanned pd
     python3 app.py
     ```
 
-- The process of the project running will be shown in the terminal.
