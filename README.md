@@ -4,8 +4,7 @@
 
 This project is to extract the necessary information from the scanned pdf files and upload it to AWS.
 The main part of this project is to extract the necessary information from the whole text with the OCR technology
-including the Tesseract framework and AWS Textract. Also, the image processing technology
-by the OpenCV framework is applied for the detection of tables in the scanned pdf document.
+including the Tesseract framework and AWS Textract.
 
 ## Structure
 
