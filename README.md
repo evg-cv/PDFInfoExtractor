@@ -1,4 +1,4 @@
-# ScannedPDFOCR
+# PDFInfoExtractor
 
 ## Overview
 
